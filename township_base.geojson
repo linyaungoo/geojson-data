@@ -1,1 +1,16 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "TS_PCODE": "MMR017008",
+        "township": "Hinthada"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [...]
+      }
+    }
+  ]
+}
