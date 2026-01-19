@@ -23,14 +23,14 @@ fs.readFile('geonode-mmr_rdsl_mimu_250k (1)1.json', 'utf8', (err, data) => {
       }
     });
 
-    // Save the cleaned data to a new file
-    fs.writeFile('geonode-mmr_rdsl_mimu_250k_cleaned.json', JSON.stringify(geojsonData, null, 2), 'utf8', (err) => {
+    // Save the cleaned data to a new GeoJSON file
+    fs.writeFile('geonode-mmr_rdsl_mimu_250k_cleaned.geojson', JSON.stringify(geojsonData, null, 2), 'utf8', (err) => {
       if (err) {
         console.error('Error writing file:', err);
         return;
       }
       console.log('Cleanup complete! Kept only id property, removed all other properties');
-      console.log('Cleaned file saved as: geonode-mmr_rdsl_mimu_250k_cleaned.json');
+      console.log('Cleaned GeoJSON file saved as: geonode-mmr_rdsl_mimu_250k_cleaned.geojson');
     });
   } catch (parseErr) {
     console.error('Error parsing JSON:', parseErr);
