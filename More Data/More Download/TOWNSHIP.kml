@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>TOWNSHIP</name>
+    <NetworkLink>
+      <name>SL CLL SDLS</name>
+      <Link>
+        <href><![CDATA[https://www.google.com/maps/d/kml?forcekml=1&mid=13Vl5eHTxDwBGb641sX87-EssYYQTrjM&lid=s1nh6Y8ZXXY]]></href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>
